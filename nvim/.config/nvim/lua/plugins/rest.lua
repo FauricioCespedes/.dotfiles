@@ -1,6 +1,6 @@
 return {
   {
-    "NTBBloodbath/rest.nvim",
+    "rest-nvim/rest.nvim",
     enabled = true,
     dependencies = { "nvim-lua/plenary.nvim" },
     ft = "http",
