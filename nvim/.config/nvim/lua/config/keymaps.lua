@@ -40,7 +40,8 @@ map("n", "N", "Nztzv", { desc = "Center finding" })
 
 map("n", "<leader>cc", ":bdelete<CR>", { desc = "Close file" })
 
-map("n", "<M-l>", "<C-W>v", { desc = "Split window right", remap = true })
+map("n", "<leader>/", "<C-W>v", { desc = "Split window right", remap = true })
+map("n", "<leader>_", "<C-W>s", { desc = "Split window below", remap = true })
 
 -- Visual Mode Keymaps
 map("v", "K", ":move '<-2<CR>gv-gv", { desc = "Move the line up" })

@@ -1,7 +1,6 @@
 return {
   {
     "ThePrimeagen/harpoon",
-    cmd = "Harpoon",
     keys = {
       { "<leader>ha", ":lua require('harpoon.mark').add_file()<cr>", desc = "Mark new Harpoon" },
       { "<leader>hp", ":lua require('harpoon.ui').toggle_quick_menu()<cr>", desc = "Open Harpoon Menu" },
