@@ -20,7 +20,7 @@ end
 
 map("i", "jf", "<esc>", { desc = "Escape insert mode" })
 
--- Normal Mode Keymaps
+-- Normal "Mode" Keymaps
 
 map("n", "<M-a>", ":wa<CR>", { desc = "Save All" })
 
