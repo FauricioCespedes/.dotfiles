@@ -19,6 +19,8 @@ end
 -- Insert Mode Keymaps
 
 map("i", "jf", "<esc>", { desc = "Escape insert mode" })
+map("i", "<M-u>", "<", { desc = "Escribir un <" })
+map("i", "<M-i>", ">", { desc = "Escribir un >" })
 
 -- Normal "Mode" Keymaps
 
