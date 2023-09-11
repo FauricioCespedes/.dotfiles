@@ -6,8 +6,8 @@ return {
     max_file_length = 10000,
   },
   init = function()
-    vim.cmd("highlight GitSignsAddNr guifg=#4ec22f")
-    vim.cmd("highlight GitSignsDeleteNr guifg=#c23d2f")
-    vim.cmd("highlight GitSignsChangeNr guifg=#c2c22f")
+    vim.cmd("highlight GitSignsAddNr guifg=#a3ffac")
+    vim.cmd("highlight GitSignsDeleteNr guifg=#ff6961")
+    vim.cmd("highlight GitSignsChangeNr guifg=#ffda9e")
   end,
 }
