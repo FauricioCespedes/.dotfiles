@@ -55,6 +55,8 @@ map("v", "J", ":move '>+1<CR>gv-gv", { desc = "Move the line down" })
 map("v", "<leader>p", '"_dP', { desc = "Paste text" })
 map("v", "<leader>d", '"_d', { desc = "Delete text" })
 
+map("v", "<leader>s", "!sort<cr>", { desc = "Delete text" })
+
 -- Otros (predefinidos por LazyVim)
 --maps.v["<"] = { "<gv", desc = "unindent line" }
 --maps.v[">"] = { ">gv", desc = "indent line" }
