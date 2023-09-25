@@ -21,6 +21,8 @@ end
 map("i", "jf", "<esc>", { desc = "Escape insert mode" })
 map("i", "<M-h>", "<Left>", { desc = "Moverse a la izquierda" })
 map("i", "<M-l>", "<Right>", { desc = "Moverse a la derecha" })
+map("i", "<M-k>", "<Up>", { desc = "Moverse hacia arriba" })
+map("i", "<M-j>", "<Down>", { desc = "Moverse hacia abajo" })
 
 -- Normal "Mode" Keymaps
 
