@@ -5,6 +5,7 @@ return {
     { "<leader>/", false },
     -- change a keymap
     { "<leader>fs", "<cmd>Telescope find_files<cr>", desc = "Find Files" },
+    { "<leader>fw", "<cmd>Telescope live_grep<cr>", desc = "Find Words" },
   },
 
   opts = {
