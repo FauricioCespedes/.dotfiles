@@ -1,3 +1,5 @@
+-- add an easy-open terminal
+
 return {
   {
     "akinsho/toggleterm.nvim",
