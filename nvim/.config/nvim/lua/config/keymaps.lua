@@ -26,6 +26,8 @@ map("i", "<M-j>", "<Down>", { desc = "Moverse hacia abajo" })
 
 -- Normal "Mode" Keymaps
 
+map("n", "<leader>ta", ":SupermavenToggle<CR>", { desc = "Toggle Supermaven" })
+
 map("n", "<M-a>", ":wa<CR>", { desc = "Save All" })
 
 map("n", "<leader>w", "^", { desc = "Go to the begin of the line", nowait = true })
